@@ -1,0 +1,38 @@
+{
+  "timeZone": "Europe/Berlin",
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8",
+  "dependencies": {
+    "libraries": []
+  },
+  "dataStudio": {
+    "name": "Scoby Analytics",
+    "logoUrl": "https://raw.githubusercontent.com/scobyio/logos/main/scoby-logo-512x512.png",
+    "company": "Scoby GmbH",
+    "companyUrl": "https://scoby.io/",
+    "addonUrl": "https://scoby.io/integrations/looker-studio",
+    "supportUrl": "https://scoby.io/contact",
+    "privacyPolicyUrl": "https://scoby.io/privacy",
+    "termsOfServiceUrl": "https://scoby.io/terms",
+    "description": "The Scoby Analytics connector enables you to create a data source that connects to your Scoby Analytics account and accesses your traffic metrics.",
+    "shortDescription": "Connect to Scoby Analytics",
+    "authType": [
+      "KEY"
+    ],
+    "feeType": [
+      "FREE"
+    ],
+    "sources": [
+      "SCOBY"
+    ],
+    "templates": {
+      "default": "9d238154-d8da-4946-a188-36e0610932fd"
+    }
+  },
+  "oauthScopes": [
+    "https://www.googleapis.com/auth/script.external_request"
+  ],
+  "urlFetchWhitelist": [
+    "https://api.scoby.io/v2/"
+  ]
+}
